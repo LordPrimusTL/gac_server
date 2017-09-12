@@ -1,0 +1,148 @@
+﻿.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open >a, 
+.navbar-default .navbar-nav > .open > a:focus
+{
+    border-width: 2px;
+    border-color: #3399FF;
+    color: black;
+    border-bottom-style: solid;
+}
+.navbar-default {
+    background-image:none;
+    padding-left: 36px;
+}
+
+.navbar-nav>li{
+  margin-left: 35px;
+}
+
+.navbar-nav {
+    float: left;
+}
+
+li > a:hover {
+     border-width: 2px;
+    border-color: #3399FF;
+    color: black;
+    border-bottom-style: solid;
+}
+.navbar-default .navbar-nav .dropdown-menu {
+    background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125);
+    border: 0px none;
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    left: 0px;
+}
+.navbar-default .navbar-nav .dropdown-menu > li:hover > a, 
+.navbar-default .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-default .navbar-nav .dropdown-menu > li.active > a {
+    background-color: #3399ff;
+    background-image:none;
+    color: #FFF;
+}
+
+.dropdown-menu > li > a {
+    border-bottom: none;
+}
+
+.divider-vertical {
+    height: 350px;
+    border-left: 1px solid gray;
+    float: left;
+    opacity: 0.5;
+    margin: 0 15px;
+    overflow:hidden;
+}
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+
+.Offer {
+    text-align:left;
+    font-style:normal;
+    font-size:25px;
+}
+.bg-1 {
+    background-color: #3399ff; /* Green */
+    color: #ffffff;
+}
+.navbar-brand {
+    margin-left: 500px;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    background: #fff none repeat scroll 0% 0%;
+}
+    .footer ul {
+        list-style: outside none none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+    .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width:150%;
+    margin-bottom: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+input[type="email"], textarea, textarea.form-control {
+    height: 50px;
+    margin: 0px;
+    width:150%;
+    padding: 0px 20px;
+    vertical-align: middle;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 3px solid #FFF;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: all 0.3s ease 0s;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 5;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.form-control {
+    display: block;
+    width: 75%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}

@@ -1,0 +1,542 @@
+<Events><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1316</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T11:14:19Z"/><EventRecordID>21790171</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>4009</Data><Data>Viewstate verification failed. Reason: Viewstate was invalid.</Data><Data>8/20/2016 11:14:19 AM</Data><Data>8/20/2016 11:14:19 AM</Data><Data>729b9df1d91147e38098b126dbf3db9d</Data><Data>6</Data><Data>1</Data><Data>50204</Data><Data>/LM/W3SVC/391070373/ROOT-1-131161650094905436</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>4072</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>http://dsuccess.azurewebsites.net/default.aspx</Data><Data>/default.aspx</Data><Data>8.37.225.113</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>Invalid viewstate.</Data><Data>8.37.225.113</Data><Data>52525</Data><Data>UCWEB/2.0 (MIDP-2.0; U; Adr 6.0; en-US; Infinix_X510) U2/1.0.0 UCBrowser/10.7.5.785 U2/1.0.0 Mobile</Data><Data>MQ5 XM8m/5jsGIln/wDpKtFsDZXSJ2zBXH/rs2qBih/jn5jjBAIVxaiqFxkm1u2kgpNMB6Y9eulfxRdfb1BBU2H4VLPXfySJpt4JiSyQcY8=</Data><Data>http://dsuccess.azurewebsites.net/</Data><Data>/default.aspx</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295187</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Alias</Data><Data>Started</Data><Data>	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295203</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Environment</Data><Data>Started</Data><Data>	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295203</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>FileSystem</Data><Data>Started</Data><Data>	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295218</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Function</Data><Data>Started</Data><Data>	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295218</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Registry</Data><Data>Started</Data><Data>	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>600</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:25Z"/><EventRecordID>50295234</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Variable</Data><Data>Started</Data><Data>	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>300</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:26Z"/><EventRecordID>50295500</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Could not find file 'E:\'.</Data><Data>	ProviderName=Microsoft.PowerShell.Core\FileSystem
+	ExceptionClass=FileNotFoundException
+	ErrorCategory=
+	ErrorId=
+	ErrorMessage=Could not find file 'E:\'.
+
+	Severity=Warning
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="PowerShell"/><EventID>400</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-20T19:09:26Z"/><EventRecordID>50295515</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>Available</Data><Data>None</Data><Data>	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=d12b063e-8242-42dc-9a49-60dc38fe2c57
+	EngineVersion=4.0
+	RunspaceId=fe4aca9f-2d44-4029-9292-b4e9bbe336e6
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T06:04:23Z"/><EventRecordID>348779062</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 6:04:23 AM</Data><Data>8/24/2016 6:04:23 AM</Data><Data>dfcac739dbb7435f92cb12ac672887a9</Data><Data>18</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131164922142141109</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>16804</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 52 - Unable to locate a Local Database Runtime installation. Verify that SQL Server Express is properly installed and that the Local Database Runtime feature is enabled.)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>11</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T06:06:21Z"/><EventRecordID>348896812</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 6:06:21 AM</Data><Data>8/24/2016 6:06:21 AM</Data><Data>8e10b62214eb40a28cb687b67c1a2dbd</Data><Data>25</Data><Data>2</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131164922142141109</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>16804</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 52 - Unable to locate a Local Database Runtime installation. Verify that SQL Server Express is properly installed and that the Local Database Runtime feature is enabled.)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>11</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T06:11:23Z"/><EventRecordID>349199406</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 6:11:23 AM</Data><Data>8/24/2016 6:11:23 AM</Data><Data>03d5c8bb5a3b4d86a48b0508d898e347</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-2-131164926644932845</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>16804</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 52 - Unable to locate a Local Database Runtime installation. Verify that SQL Server Express is properly installed and that the Local Database Runtime feature is enabled.)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>7</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 71
+   at DSuccessUnilag.EmailVerification.VerifyInput(String Email) in c:\D-Success\D-Success\App_Data\EmailVerification.cs:line 59
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e) in c:\D-Success\D-Success\Promo\OnlineRegistrationPromo.aspx.cs:line 25
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T08:55:48Z"/><EventRecordID>359064125</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 8:55:48 AM</Data><Data>8/24/2016 8:55:48 AM</Data><Data>742ea6c4c3284e11bea23ee90c4da647</Data><Data>19</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131165024874177204</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>19640</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 52 - Unable to locate a Local Database Runtime installation. Verify that SQL Server Express is properly installed and that the Local Database Runtime feature is enabled.)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.210.224.130</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>10</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T09:39:30Z"/><EventRecordID>361685437</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 9:39:30 AM</Data><Data>8/24/2016 9:39:30 AM</Data><Data>a00913c0c92b4125b7cc5a5474104046</Data><Data>3</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131165051399621999</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>24272</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 52 - Unable to locate a Local Database Runtime installation. Verify that SQL Server Express is properly installed and that the Local Database Runtime feature is enabled.)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>6</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T19:08:39Z"/><EventRecordID>395833156</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 7:08:39 PM</Data><Data>8/24/2016 7:08:39 PM</Data><Data>3c388843cd6d4b7caa1a27f198691974</Data><Data>14</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131165390768044065</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>23516</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>14</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-24T19:20:19Z"/><EventRecordID>396533250</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>8/24/2016 7:20:19 PM</Data><Data>8/24/2016 7:20:19 PM</Data><Data>951b7dd6307b4c6c9e6bb73e127e859c</Data><Data>16</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-2-131165399889690830</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF351194</Data><Data></Data><Data>23516</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+The system cannot find the file specified
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>197.211.57.58</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>18</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>102</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:36Z"/><EventRecordID>418989359</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>54ef0a95-28c8-4858-8700-6f3dc5462fbc: </Data><Data>0</Data><Data>6</Data><Data>02</Data><Data>9200</Data><Data>0000</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>105</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:36Z"/><EventRecordID>418989375</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>54ef0a95-28c8-4858-8700-6f3dc5462fbc: </Data><Data>0</Data><Data>0</Data><Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000.</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>325</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:36Z"/><EventRecordID>418989640</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>54ef0a95-28c8-4858-8700-6f3dc5462fbc: </Data><Data>1</Data><Data>D:\local\Temp\0e9e57c0-23c3-491f-a29e-cca5f8e7fb5f.model</Data><Data>0</Data><Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.203, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.031, [10] 0.000, [11] 0.000.</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>102</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:44Z"/><EventRecordID>418997890</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>5706e52a-c149-4a5f-a993-eebac0e54b58: </Data><Data>1</Data><Data>6</Data><Data>02</Data><Data>9200</Data><Data>0000</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>105</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:44Z"/><EventRecordID>418997906</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>5706e52a-c149-4a5f-a993-eebac0e54b58: </Data><Data>1</Data><Data>0</Data><Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000.</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>325</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:34:45Z"/><EventRecordID>418998140</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>5706e52a-c149-4a5f-a993-eebac0e54b58: </Data><Data>3</Data><Data>D:\local\Temp\5f291448-8aa2-4359-8e1c-78001266b14a.model</Data><Data>0</Data><Data>[1] 0.000, [2] 0.000, [3] 0.204, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.015, [10] 0.000, [11] 0.000.</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>103</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:38:40Z"/><EventRecordID>419233078</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>54ef0a95-28c8-4858-8700-6f3dc5462fbc: </Data><Data>0</Data><Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.016, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000, [13] 0.000, [14] 0.000, [15] 0.000.</Data><Data>0</Data></EventData></Event><Event><System><Provider Name="ESENT"/><EventID>103</EventID><Level>0</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-08-25T01:38:40Z"/><EventRecordID>419233265</EventRecordID><Channel>Application</Channel><Computer>RD0003FF351194</Computer><Security/></System><EventData><Data>w3wp</Data><Data>7108</Data><Data>5706e52a-c149-4a5f-a993-eebac0e54b58: </Data><Data>1</Data><Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.016, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.156, [10] 0.000, [11] 0.000, [12] 0.000, [13] 0.000, [14] 0.000, [15] 0.000.</Data><Data>0</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-09-28T14:49:22Z"/><EventRecordID>730991625</EventRecordID><Channel>Application</Channel><Computer>RD0003FF3B6542</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>9/28/2016 2:49:22 PM</Data><Data>9/28/2016 2:49:22 PM</Data><Data>1e372c5729d44188b952f446f7427cb7</Data><Data>9</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131195477133578073</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF3B6542</Data><Data></Data><Data>4504</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>Database 'Dsuccess' on server 'lordserver.database.windows.net' is not currently available.  Please retry the connection later.  If the problem persists, contact customer support, and provide them the session tracing ID of '{5DC9C0DE-1539-40D0-81EF-8D27A06CE7C0}'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.user(String UserName, String Passsword)
+   at D_Success.GAE.Unnamed_ServerClick(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+</Data><Data>http://dsuccess.azurewebsites.net/gae.aspx</Data><Data>/gae.aspx</Data><Data>129.56.0.172</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>10</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.user(String UserName, String Passsword)
+   at D_Success.GAE.Unnamed_ServerClick(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2016-11-30T08:12:46Z"/><EventRecordID>959959390</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2EB07F</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>11/30/2016 8:12:45 AM</Data><Data>11/30/2016 8:12:45 AM</Data><Data>c6616418750c4b6ab11bbc0bd57ffa5f</Data><Data>13</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/391070373/ROOT-1-131249667667246657</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD0003FF2EB07F</Data><Data></Data><Data>11744</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\dsuccess</Data><Data>SqlException</Data><Data>Database 'Dsuccess' on server 'lordserver.database.windows.net' is not currently available.  Please retry the connection later.  If the problem persists, contact customer support, and provide them the session tracing ID of '{3A39F552-7A3B-4B13-B9A7-ED9B1B3575B4}'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+</Data><Data>http://dsuccess.azurewebsites.net/Promo/OnlineRegistrationPromo.aspx</Data><Data>/Promo/OnlineRegistrationPromo.aspx</Data><Data>141.0.14.9</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\dsuccess</Data><Data>22</Data><Data>IIS APPPOOL\dsuccess</Data><Data>False</Data><Data>   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DSuccessUnilag.EmailVerification.VerifyEmail(String Email)
+   at DSuccessUnilag.Promo.OnlineRegistrationPromo.VerifyEmail(Object sender, EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.OnServerClick(EventArgs e)
+   at System.Web.UI.HtmlControls.HtmlInputButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlInputButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Data></EventData></Event></Events>

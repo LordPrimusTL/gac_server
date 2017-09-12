@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DSuccessUnilag.Promo.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <link href="Content/Style/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/Style/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Style/Custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="navbar nav-pills  navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Default.aspx">
+                        <img src="../Content/Images/logo.png" alt="Logo" /></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <asp:ContentPlaceHolder ID="DefaultActive" runat="server"></asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="AboutActive" runat="server"></asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="ContactActive" runat="server"></asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="UniversityActive" runat="server"></asp:ContentPlaceHolder>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="MainBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    © 2015 All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li>|</li>
+                        <li>Designed by YWC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
