@@ -53,6 +53,7 @@ public function LogOut()
     {
         $main_hymn = main_hymn::all();
         $app_hymn = appendix_hymn::all();
+
         
         return view('hymn.app')->with(['app_hymn' => $app_hymn,'title' => 'Appendix Hymn','main_hymn' => $main_hymn]);
     }
