@@ -42,16 +42,11 @@ public function LogOut()
     }
 
     
-public function GetMainHymn()
-    {
-        
-$main_hymn = main_hymn::orderBy('hymn_id','ASC')->get();
-        
-$app_hymn = appendix_hymn::all();
-        
-return view('hymn.main')->with(['main_hymn' => $main_hymn,'title' => 'Main Hymn','app_hymn' => $app_hymn]);
-    
-}
+    public function GetMainHymn(){
+        $main_hymn = main_hymn::orderBy('hymn_id','ASC')->get();
+        $app_hymn = appendix_hymn::all();
+        return view('hymn.main')->with(['main_hymn' => $main_hymn,'title' => 'Main Hymn','app_hymn' => $app_hymn]);
+    }
 
     
     public function GetAppHymn()
