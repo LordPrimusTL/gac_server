@@ -39,7 +39,8 @@ Route::get('download/andriod-app','OtherController@DownloadApp');
 Route::post('addhymn','MainController@AddHymn');
 
 
-Route::get('/hymn','OtherController@ddJson');
+Route::get('/main-hymn','OtherController@mainHymnResolve');
+Route::get('/app-hymn','OtherController@appHymnResolve');
 
 
 
