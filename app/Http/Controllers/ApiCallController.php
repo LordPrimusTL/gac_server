@@ -8,6 +8,8 @@ use App\Installations;
 use App\main_hymn;
 use App\main_verse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Validator;
 
 class ApiCallController extends Controller
 {
@@ -20,14 +22,14 @@ class ApiCallController extends Controller
 
     public function GetMainHymn()
     {
-            $all = main_hymn::where('hymn_id', '>', '0')->Where('hymn_id', '<', '301')->orderBy('hymn_id','ASC')->get();
+            $all = main_hymn::where('hymn_id', '>', '0')->Where('hymn_id', '<', '401')->orderBy('hymn_id','ASC')->get();
             //$all = main_hymn::where(['id' > 0, 'id' < 101])->orderBy('id','ASC')->get();
             return response()->json($all);
     }
     //Get Verse of main hymn choosed
     public function GetMainVerse()
     {
-        $chosedhymn = main_verse::where('hymn_id', '>', '0')->Where('hymn_id', '<', '301')->orderBy('hymn_id','ASC')->get();
+        $chosedhymn = main_verse::where('hymn_id', '>', '0')->Where('hymn_id', '<', '401')->orderBy('hymn_id','ASC')->get();
         return response()->json($chosedhymn);
     }
 
@@ -56,20 +58,50 @@ class ApiCallController extends Controller
 
     public function PostInstallation(Request $request)
     {
-        //Installation
-        //return response()->json(json_encode($request->all()));
+        try{
+            //Installation
+            //return response()->json(json_encode($request->all()));
+            $ins = new Installations();
+            $ins->Name = "No Name";
+            $ins->Branch = "No Branch";
+            $ins->UUID = $request->UUID;
+            $ins->PhoneType = $request->PhoneType;
+            $ins->AID = $request->AndroidID;
+            try{
+                $ins->save();
+                return response()->json(1);
+            }catch(\Exception $ex){
+                return response()->json($ex->getMessage());
+            }
+        }catch(\Exception $ex){
+            Log::error("Inst Error", [$ex]);
+            return response()->json($ex->getMessage());
+        }
+    }
+
+    public function userReg(Request $request){
+        $val = Validator::make($request->all(),[
+            'UUID' => 'required',
+            'PhoneType' => 'required',
+            'AID' =>'required'
+        ]);
+
+        if($val->fails()){
+            return response()->json(['status' => '0', 'message' => $val->errors()->all(), 'data' => $request->all()]);
+        }
+
         $ins = new Installations();
         $ins->Name = "No Name";
         $ins->Branch = "No Branch";
         $ins->UUID = $request->UUID;
         $ins->PhoneType = $request->PhoneType;
-        $ins->AID = $request->AndroidID;
-        try{
-            $ins->save();
-            return response()->json(1);
-        }catch(\Exception $ex){
-            return response()->json($ex->getMessage());
+        $ins->AID = $request->AID;
+        if($ins->save()){
+            return response()->json(['status' => '1', 'message' => "Success", 'data' => $ins]);
+        }else{
+            return response()->json(['status' => '0', 'message' => "An Error Occurred", 'data' => $ins]);
         }
     }
+
 
 }

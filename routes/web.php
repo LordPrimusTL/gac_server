@@ -46,12 +46,13 @@ Route::get('/app-hymn','OtherController@appHymnResolve');
 
 //Api Call Routes
 Route::group(['prefix' => '/api/'], function(){
-    Route::get('getmainhymn','ApiCallController@GetMainHymn');
+    Route::get('getmainhymn','ApiCallController@GetAllMainHymn');
     Route::get('getapphymn','ApiCallController@GetAllAppHymn');
     Route::get('getmainverse','ApiCallController@GetMainVerse');
     Route::get('getappverse','ApiCallController@GetAllAppVerse');
     Route::get('getmainhymn/{hymn_id}','ApiCallController@GetMainVerse');
     Route::get('getapphymn/{hymn_id}','ApiCallController@GetAppVerse');
     Route::post('installations','ApiCallController@PostInstallation');
+    Route::post('user/reg','ApiCallController@userReg');
 });
 
