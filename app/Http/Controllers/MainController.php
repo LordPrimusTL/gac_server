@@ -320,4 +320,8 @@ public function LogOut()
         Session::flash('success','verse Deleted Successfully');
         return redirect()->back();
     }
+
+    public function appDownload(){
+        return response()->download(public_path().'/app/GAC Hymnal.apk');
+    }
 }

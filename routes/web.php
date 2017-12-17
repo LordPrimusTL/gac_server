@@ -11,6 +11,14 @@
 |
 */
 
+Route::get('/clear', function ()
+{
+    Artisan::call('cache:clear');
+    Artisan::call('config:cache');
+    dd('cleared');
+});
+
+
 Route::get('/', 'MainController@hymn');
 Route::get('/logout', 'MainController@LogOut');
 Route::get('main','MainController@GetMainHymn');
@@ -32,7 +40,8 @@ Route::post('admin/dashboard','AdminController@AddUser');
 
 
 Route::get('other','OtherController@NotCount');
-Route::get('download/andriod-app','OtherController@DownloadApp');
+Route::get('download/android','OtherController@DownloadApp');
+
 
 
 //Ajax Call
@@ -42,7 +51,7 @@ Route::post('addhymn','MainController@AddHymn');
 Route::get('/main-hymn','OtherController@mainHymnResolve');
 Route::get('/app-hymn','OtherController@appHymnResolve');
 
-
+Route::get('android/download','MainController@appDownload');
 
 //Api Call Routes
 Route::group(['prefix' => '/api/'], function(){
