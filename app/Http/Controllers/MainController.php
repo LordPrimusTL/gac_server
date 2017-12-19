@@ -8,15 +8,18 @@ namespace App\Http\Controllers;
 use App\appendix_hymn;
 
 use App\appendix_verse;
+use App\Helper\AppMailer;
 use App\main_hymn;
 
 use App\main_verse;
+use App\Review;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Support\Facades\Input;
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
 
 use Illuminate\Support\Facades\Validator;
@@ -26,8 +29,10 @@ use Mockery\Exception;
 
 class MainController extends Controller
 {
-    
-public function LogOut()
+
+
+
+    public function LogOut()
     {
         Auth::logout();
         return redirect()->action('MainController@hymn');
@@ -323,5 +328,38 @@ public function LogOut()
 
     public function appDownload(){
         return response()->download(public_path().'/app/GAC Hymnal.apk');
+    }
+
+
+    public function reviewHymn($aid){
+        return view('hymn.review',['title' => 'Review', "aid" => $aid]);
+    }
+
+    public function reviewPost(Request $request, AppMailer $mailer){
+        try{
+            $rev = new Review();
+            $rev->aid = $request->aid;
+            $rev->name = $request->name;
+            $rev->email = $request->email;
+            $rev->feedback = $request->feedback;
+            if($rev->save()){
+                if(isset($request->email)){
+                    $mailer->feedback($request->email, explode(' ', $rev->name)[0]);
+                    $mailer->notify("feedback");
+                    Log::info('Mail Sent');
+                }
+                Session::flash('success','Thank You for your feedback.');
+            }else{
+                Session::flash('error','Your feedback could not be saved at this moment.');
+            }
+            return redirect()->back();
+        }catch (\Exception $ex){
+            dd($ex);
+            Log::error("Fatal Error Occurred",[$ex]);
+            Session::flash('error','Your feedback could not be saved at this moment.');
+            return redirect()->back();
+        }
+
+
     }
 }

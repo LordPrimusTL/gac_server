@@ -46,7 +46,8 @@ Route::get('download/android','OtherController@DownloadApp');
 
 //Ajax Call
 Route::post('addhymn','MainController@AddHymn');
-
+Route::get('review/{aid}',"MainController@reviewHymn");
+Route::post('review/submit','MainController@reviewPost')->name('review');
 
 Route::get('/main-hymn','OtherController@mainHymnResolve');
 Route::get('/app-hymn','OtherController@appHymnResolve');
