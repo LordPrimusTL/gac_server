@@ -345,7 +345,7 @@ class MainController extends Controller
             if($rev->save()){
                 if(isset($request->email)){
                     $mailer->feedback($request->email, explode(' ', $rev->name)[0]);
-                    $mailer->notify("feedback");
+                    $mailer->notifyFeedback("feedback", $rev);
                     Log::info('Mail Sent');
                 }
                 Session::flash('success','Thank You for your feedback.');

@@ -22,7 +22,7 @@ class AppMailer
     protected $view;
     protected $data = [];
     protected $admin = [
-        "michealakinwonmi@gmail.com","michealakinwonmi@outlook.com"];
+        "michealakinwonmi@gmail.com","abimolu80@gmail.com"];
 
     public function __construct(Mailer $mailer)
     {
@@ -43,6 +43,14 @@ class AppMailer
         $this->subject = "Request/Notification";
         $this->view = 'Email.notification';
         $this->data = compact('msg');
+        return $this->deliver();
+    }
+    public function notifyFeedback($msg, $rev)
+    {
+        $this->to = $this->admin;
+        $this->subject = "Request/Notification";
+        $this->view = 'Email.notification';
+        $this->data = compact('msg', 'rev');
         return $this->deliver();
     }
 

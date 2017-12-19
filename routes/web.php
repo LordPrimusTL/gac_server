@@ -40,7 +40,6 @@ Route::post('admin/dashboard','AdminController@AddUser');
 
 
 Route::get('other','OtherController@NotCount');
-Route::get('download/android','OtherController@DownloadApp');
 
 
 

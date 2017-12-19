@@ -4,10 +4,8 @@
     <title></title>
 </head>
 <body>
-You have a new {{$msg}}. Please tend to it quickly.
-<p>Name: {{$rev->name}}</p>
-<p>Email: {{$rev->email}}</p>
-<p>Feedback: {{$rev->feedback}}</p>
-Thank You
+<p>Hello <?php echo e($name); ?>,</p>
+<p>We Appreciate your feedback and welcome more as we work towards a better product. Thank you </p>
+<p>GAC Hymnal Team.</p>
 </body>
 </html>
