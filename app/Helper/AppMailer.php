@@ -16,13 +16,14 @@ class AppMailer
 {
     protected $mailer;
     protected $fromAddress = 'info@gacpedro.com.ng';
-    protected $fromName = 'Micheal';
+    protected $fromName = 'GAC Hymnal Team';
     protected $to;
     protected $subject;
     protected $view;
     protected $data = [];
     protected $admin = [
-        "michealakinwonmi@gmail.com","abimolu80@gmail.com"];
+        "michealakinwonmi@gmail.com","info@gacpedro.com.ng"
+    ];
 
     public function __construct(Mailer $mailer)
     {
