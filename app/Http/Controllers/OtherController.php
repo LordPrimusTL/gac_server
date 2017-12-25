@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\appendix_hymn;
 use App\appendix_verse;
+use App\Installations;
 use App\main_hymn;
 use App\main_verse;
 use Illuminate\Http\Request;
@@ -155,4 +156,9 @@ class OtherController extends Controller
 
 
     }
+
+    public function installCount(){
+        dd(count(Installations::all()));
+    }
+
 }

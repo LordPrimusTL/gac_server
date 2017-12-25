@@ -53,6 +53,8 @@ Route::get('/app-hymn','OtherController@appHymnResolve');
 
 Route::get('android/download','MainController@appDownload');
 
+Route::get('install/count',"OtherController@installCount");
+
 //Api Call Routes
 Route::group(['prefix' => '/api/'], function(){
     Route::get('getmainhymn','ApiCallController@GetAllMainHymn');
